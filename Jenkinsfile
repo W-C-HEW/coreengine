@@ -12,6 +12,7 @@ pipeline {
                 // Get some code from a GitHub repository
                  checkout   scm
 
+                //
                 // Run Maven on a Unix agent.
                 // sh "mvn -Dmaven.test.failure.ignore=true -s settings.xml clean deploy sonar:sonar \
                 //     -Dsonar.projectKey=coreengine \
